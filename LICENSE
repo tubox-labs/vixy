@@ -1,0 +1,15 @@
+Vixy Public Repository License Notice
+
+Copyright (c) 2026 Tubox Labs.
+
+The Vixy CLI source code, build system, and distributed binaries are
+proprietary. This public repository is provided only for installation,
+release metadata, documentation, issue tracking, and support.
+
+You may view, copy, and redistribute the files in this public repository for
+the purpose of installing, documenting, or supporting Vixy. This notice does
+not grant permission to redistribute Vixy binaries outside the authorized
+release channel, publish Vixy source code, reverse engineer the Vixy binary, or
+use Vixy trademarks except to identify the product.
+
+All rights not expressly granted are reserved.

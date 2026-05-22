@@ -1,0 +1,7 @@
+.DS_Store
+bin/
+dist/
+tmp/
+*.tar.gz
+*.zip
+checksums.local.txt

@@ -1,0 +1,27 @@
+name: Installer issue
+description: Report install, upgrade, uninstall, or checksum failures
+title: "[Installer]: "
+labels: ["installer"]
+body:
+  - type: input
+    id: command
+    attributes:
+      label: Command
+      placeholder: "curl -fsSL https://veyra.tubox.cloud/vixy/install.sh | bash"
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      placeholder: "macOS arm64"
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Output
+      description: Paste the installer output with secrets removed.
+      render: text
+    validations:
+      required: true
