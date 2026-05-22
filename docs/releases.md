@@ -1,32 +1,32 @@
 # Release Artifacts
 
-Vixy releases are binary-only. The public repository tracks metadata and
-checksums, not source code.
+Vixy releases are published as platform-specific binary archives with SHA-256
+checksums.
 
-## Host Layout
-
-```text
-releases/latest/VERSION
-releases/v0.1.0-beta.1/vixy_darwin_amd64.tar.gz
-releases/v0.1.0-beta.1/vixy_darwin_arm64.tar.gz
-releases/v0.1.0-beta.1/vixy_linux_amd64.tar.gz
-releases/v0.1.0-beta.1/vixy_linux_arm64.tar.gz
-releases/v0.1.0-beta.1/checksums.txt
-install.sh
-```
-
-`releases/latest/VERSION` contains the latest version without a leading `v`:
+## Artifacts
 
 ```text
-0.1.0-beta.1
+vixy_darwin_amd64.tar.gz
+vixy_darwin_arm64.tar.gz
+vixy_linux_amd64.tar.gz
+vixy_linux_arm64.tar.gz
+vixy_windows_amd64.zip
+vixy_windows_arm64.zip
+checksums.txt
 ```
 
 ## Archive Contents
 
-Each archive contains a single executable:
+macOS and Linux archives contain:
 
 ```text
 vixy
+```
+
+Windows archives contain:
+
+```text
+vixy.exe
 ```
 
 ## Checksums
@@ -37,11 +37,11 @@ Verify an archive manually:
 shasum -a 256 vixy_darwin_arm64.tar.gz
 ```
 
-Compare the output with `releases/v0.1.0-beta.1/checksums.txt`.
+Compare the output with `checksums.txt` from the same release.
 
 ## Codenames
 
-Every public release has a codename. The first beta release is:
+Every release has a codename. The first beta release is:
 
 ```text
 Jolly Roger

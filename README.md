@@ -2,9 +2,10 @@
 
 Private AI coding assistant for the terminal.
 
-This public repository is the distribution and support home for Vixy. It does
-not contain Vixy's private source code. The CLI is distributed as checksummed
-private binary artifacts from the Veyra release host.
+Vixy helps developers explore, edit, test, and ship code from a fast terminal
+workflow. It combines a keyboard-first TUI, project-aware context, tool
+execution, resumable sessions, provider selection, skills, plugins, MCP servers,
+hooks, and background agents in a single native CLI.
 
 ## Install
 
@@ -26,14 +27,14 @@ curl -fsSL https://veyra.tubox.cloud/vixy/install.sh | bash -s uninstall
 
 ## Supported Platforms
 
-The first beta release publishes:
+The first beta release publishes binaries for:
 
 - macOS arm64
 - macOS amd64
 - Linux arm64
 - Linux amd64
-
-Windows binaries are not published in the first beta release.
+- Windows arm64
+- Windows amd64
 
 ## Current Release
 
@@ -62,21 +63,14 @@ vixy version                 # print version metadata
 Run `/model` on first launch to connect a provider. Run `/help` inside the TUI
 to see slash commands and keyboard shortcuts.
 
-## What Is In This Repo
+## Highlights
 
-- Installer script
-- Public release notes and checksums
-- Installation and troubleshooting docs
-- Security and support policy
-- GitHub issue templates
-
-## What Is Not In This Repo
-
-- Vixy source code
-- Internal architecture docs
-- Private build automation
-- Release binaries
-- Credentials, provider keys, or customer data
+- Native terminal app with a compact single-binary install.
+- Interactive chat, code editing, shell execution, and file-aware workflows.
+- Resumable sessions with conversation history.
+- Provider and model switching from the terminal.
+- Project personas, skills, plugins, MCP servers, hooks, and background agents.
+- Workspace trust and permission controls for tool execution.
 
 ## Documentation
 
@@ -84,7 +78,6 @@ to see slash commands and keyboard shortcuts.
 - [Configuration](docs/configuration.md)
 - [Release artifacts](docs/releases.md)
 - [Troubleshooting](docs/troubleshooting.md)
-- [Public repository policy](docs/public-repo-policy.md)
 - [Privacy notes](docs/privacy.md)
 
 ## Security
@@ -94,4 +87,4 @@ Do not open a public issue for a vulnerability. Follow
 
 ## License
 
-Vixy source code and binaries are proprietary. See [LICENSE](LICENSE).
+See [LICENSE](LICENSE).
