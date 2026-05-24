@@ -41,8 +41,8 @@ Compare the output with `checksums.txt` from the same release.
 
 ## Codenames
 
-Every release has a codename. The first beta release is:
+Every release has a codename. The current beta release is:
 
 ```text
-Jolly Roger
+Signal Lantern
 ```

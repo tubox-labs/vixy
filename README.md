@@ -16,7 +16,7 @@ curl -fsSL https://veyra.tubox.cloud/vixy/install.sh | bash
 Pin a version:
 
 ```bash
-VIXY_VERSION=0.1.0-beta.1 bash install.sh
+VIXY_VERSION=0.1.0-beta.2 bash install.sh
 ```
 
 Uninstall:
@@ -27,7 +27,7 @@ curl -fsSL https://veyra.tubox.cloud/vixy/install.sh | bash -s uninstall
 
 ## Supported Platforms
 
-The first beta release publishes binaries for:
+The beta release channel publishes binaries for:
 
 - macOS arm64
 - macOS amd64
@@ -38,13 +38,13 @@ The first beta release publishes binaries for:
 
 ## Current Release
 
-- Version: `v0.1.0-beta.1`
-- Codename: `Jolly Roger`
+- Version: `v0.1.0-beta.2`
+- Codename: `Signal Lantern`
 
 Expected binary output:
 
 ```text
-Vixy CLI v0.1.0-beta.1 (Jolly Roger)
+Vixy CLI v0.1.0-beta.2 (Signal Lantern)
 Commit: <commit>
 Built: <timestamp>
 ```

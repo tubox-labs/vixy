@@ -7,5 +7,5 @@ acceptable.
 Report conduct issues to:
 
 ```text
-support@veyra.ai
+support@tubox.cloud
 ```

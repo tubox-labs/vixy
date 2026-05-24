@@ -12,7 +12,7 @@ The installer downloads the latest platform archive, verifies it against
 ## Pin A Version
 
 ```bash
-VIXY_VERSION=0.1.0-beta.1 bash install.sh
+VIXY_VERSION=0.1.0-beta.2 bash install.sh
 ```
 
 ## Custom Install Directory

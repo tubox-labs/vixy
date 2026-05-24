@@ -1,10 +1,10 @@
-# Vixy v0.1.0-beta.1 Release Notes
+# Vixy v0.1.0-beta.2 Release Notes
 
-Codename: Jolly Roger
+Codename: Signal Lantern
 
 ## Distribution
 
-Vixy v0.1.0-beta.1 is available as platform-specific binary archives.
+Vixy v0.1.0-beta.2 is available as platform-specific binary archives.
 
 Expected artifacts:
 
@@ -18,11 +18,11 @@ Expected artifacts:
 
 ## Highlights
 
-- First beta release of the Vixy CLI.
-- Native terminal text selection works in the TUI.
-- ANSI color fragments no longer leak into rendered chat text.
-- The message box shows `Agent is working. Press Esc to interrupt...` while a response is active.
-- Release binaries print version, commit, build date, and codename metadata.
+- Veyra free-plan requests now avoid oversized context and output-token defaults.
+- API keys without quota/access read permission fall back to free-safe request limits.
+- Native terminal text selection works in interactive mode by default.
+- Mouse reporting is still available as an opt-in with `VIXY_MOUSE=1`.
+- Shell and PowerShell installers are available.
 - macOS, Linux, and Windows builds are available for amd64 and arm64.
 
 ## Install
@@ -34,5 +34,5 @@ curl -fsSL https://veyra.tubox.cloud/vixy/install.sh | bash
 Pin a version:
 
 ```bash
-VIXY_VERSION=0.1.0-beta.1 bash install.sh
+VIXY_VERSION=0.1.0-beta.2 bash install.sh
 ```
