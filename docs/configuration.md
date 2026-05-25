@@ -19,7 +19,9 @@ Common environment variables:
 | `VIXY_VERSION` | Pin a version during install. |
 | `VIXY_INSTALL_DIR` | Choose install directory. |
 | `VIXY_DOWNLOAD_BASE_URL` | Override the release host. |
+| `VIXY_RELEASE_API_BASE_URL` | Override the latest-version metadata host. |
 | `VIXY_AUTO_UPDATE=0` | Disable startup update checks. |
+| `VIXY_MOUSE=0` | Force TUI mouse reporting off, including on Windows. |
 | `VIXY_DEBUG=1` | Enable debug logging. |
 
 Run `/model` inside Vixy to configure model providers. Do not put API keys in

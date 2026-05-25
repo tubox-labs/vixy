@@ -1,10 +1,10 @@
-# Vixy v0.1.0-beta.2 Release Notes
+# Vixy v0.1.0-beta.3 Release Notes
 
-Codename: Signal Lantern
+Codename: Harbor Beacon
 
 ## Distribution
 
-Vixy v0.1.0-beta.2 is available as platform-specific binary archives.
+Vixy v0.1.0-beta.3 is available as platform-specific binary archives.
 
 Expected artifacts:
 
@@ -18,11 +18,11 @@ Expected artifacts:
 
 ## Highlights
 
-- Veyra free-plan requests now avoid oversized context and output-token defaults.
-- API keys without quota/access read permission fall back to free-safe request limits.
-- Native terminal text selection works in interactive mode by default.
-- Mouse reporting is still available as an opt-in with `VIXY_MOUSE=1`.
-- Shell and PowerShell installers are available.
+- Startup auto-update now detects prerelease upgrades correctly.
+- `vixy update` is available for manual update checks and installs.
+- Release metadata and artifact downloads can be mirrored separately.
+- Windows PowerShell mouse-wheel input scrolls chat instead of navigating prompt history.
+- macOS and Linux keep normal terminal text selection by default.
 - macOS, Linux, and Windows builds are available for amd64 and arm64.
 
 ## Install
@@ -34,5 +34,5 @@ curl -fsSL https://veyra.tubox.cloud/vixy/install.sh | bash
 Pin a version:
 
 ```bash
-VIXY_VERSION=0.1.0-beta.2 bash install.sh
+VIXY_VERSION=0.1.0-beta.3 bash install.sh
 ```

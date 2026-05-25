@@ -12,7 +12,7 @@ The installer downloads the latest platform archive, verifies it against
 ## Pin A Version
 
 ```bash
-VIXY_VERSION=0.1.0-beta.2 bash install.sh
+VIXY_VERSION=0.1.0-beta.3 bash install.sh
 ```
 
 ## Custom Install Directory
@@ -24,11 +24,12 @@ VIXY_INSTALL_DIR=/usr/local/bin bash install.sh
 ## Custom Release Host
 
 ```bash
+VIXY_RELEASE_API_BASE_URL=https://example.com/vixy \
 VIXY_DOWNLOAD_BASE_URL=https://example.com/vixy bash install.sh
 ```
 
-The custom host must expose the same release layout documented in
-[releases.md](releases.md).
+The metadata host must expose `releases/latest/VERSION`. The download host must
+expose the versioned archives documented in [releases.md](releases.md).
 
 ## Upgrade
 

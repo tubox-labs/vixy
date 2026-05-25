@@ -37,8 +37,8 @@ Environment:
 
 Release layout:
   ${RELEASE_API_BASE_URL}/releases/latest/VERSION
-  ${DOWNLOAD_BASE_URL}/v0.1.0-beta.2/vixy_<os>_<arch>.tar.gz
-  ${DOWNLOAD_BASE_URL}/v0.1.0-beta.2/checksums.txt
+  ${DOWNLOAD_BASE_URL}/v0.1.0-beta.3/vixy_<os>_<arch>.tar.gz
+  ${DOWNLOAD_BASE_URL}/v0.1.0-beta.3/checksums.txt
 EOF
 }
 

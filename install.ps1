@@ -53,8 +53,8 @@ Environment:
 
 Release layout:
   $ReleaseApiBaseUrl/releases/latest/VERSION
-  $DownloadBaseUrl/v0.1.0-beta.2/vixy_windows_<arch>.zip
-  $DownloadBaseUrl/v0.1.0-beta.2/checksums.txt
+  $DownloadBaseUrl/v0.1.0-beta.3/vixy_windows_<arch>.zip
+  $DownloadBaseUrl/v0.1.0-beta.3/checksums.txt
 "@
 }
 

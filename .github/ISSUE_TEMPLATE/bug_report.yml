@@ -23,6 +23,8 @@ body:
         - macOS amd64
         - Linux arm64
         - Linux amd64
+        - Windows arm64
+        - Windows amd64
         - Other
     validations:
       required: true

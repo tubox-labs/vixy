@@ -19,6 +19,7 @@ curl -fsSL https://veyra.tubox.cloud/vixy/releases/latest/VERSION
 If you use a mirror, set:
 
 ```bash
+VIXY_RELEASE_API_BASE_URL=https://your-host.example/vixy
 VIXY_DOWNLOAD_BASE_URL=https://your-host.example/vixy
 ```
 
@@ -35,7 +36,13 @@ continues, open an issue with:
 
 ## Unsupported OS Or Architecture
 
-The first beta release supports macOS and Linux on `amd64` and `arm64`.
+The beta release supports macOS, Linux, and Windows on `amd64` and `arm64`.
+
+## Windows Chat Does Not Scroll
+
+Windows builds enable TUI mouse reporting by default so mouse-wheel input
+scrolls chat instead of navigating prompt history. If you need to force native
+terminal mouse behavior, start Vixy with `VIXY_MOUSE=0`.
 
 ## Need Version Metadata
 

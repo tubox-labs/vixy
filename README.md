@@ -16,7 +16,7 @@ curl -fsSL https://veyra.tubox.cloud/vixy/install.sh | bash
 Pin a version:
 
 ```bash
-VIXY_VERSION=0.1.0-beta.2 bash install.sh
+VIXY_VERSION=0.1.0-beta.3 bash install.sh
 ```
 
 Uninstall:
@@ -38,13 +38,13 @@ The beta release channel publishes binaries for:
 
 ## Current Release
 
-- Version: `v0.1.0-beta.2`
-- Codename: `Signal Lantern`
+- Version: `v0.1.0-beta.3`
+- Codename: `Harbor Beacon`
 
 Expected binary output:
 
 ```text
-Vixy CLI v0.1.0-beta.2 (Signal Lantern)
+Vixy CLI v0.1.0-beta.3 (Harbor Beacon)
 Commit: <commit>
 Built: <timestamp>
 ```
@@ -58,6 +58,7 @@ cat file.go | vixy -p ""     # non-interactive print mode
 vixy --continue              # resume the latest session
 vixy --resume                # select a previous session
 vixy version                 # print version metadata
+vixy update                  # update to the latest release
 ```
 
 Run `/model` on first launch to connect a provider. Run `/help` inside the TUI

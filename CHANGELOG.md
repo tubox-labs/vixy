@@ -2,6 +2,26 @@
 
 All notable public distribution changes to Vixy are documented here.
 
+## [v0.1.0-beta.3] - 2026-05-25
+
+Codename: Harbor Beacon
+
+### Added
+
+- Added the beta.3 public release metadata and checksums.
+- Added `vixy update` for manual update checks and installs.
+
+### Changed
+
+- Updated the CLI release metadata to `v0.1.0-beta.3` and codename `Harbor Beacon`.
+- Documented separate metadata and artifact host overrides for release mirrors.
+- Enabled reliable chat wheel scrolling on Windows terminals by default.
+
+### Fixed
+
+- Fixed startup auto-update detection for prerelease upgrades.
+- Fixed Windows PowerShell wheel input navigating prompt history instead of scrolling chat.
+
 ## [v0.1.0-beta.2] - 2026-05-24
 
 Codename: Signal Lantern

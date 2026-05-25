@@ -44,5 +44,5 @@ Compare the output with `checksums.txt` from the same release.
 Every release has a codename. The current beta release is:
 
 ```text
-Signal Lantern
+Harbor Beacon
 ```
